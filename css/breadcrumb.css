@@ -1,6 +1,7 @@
 /* breadcrumps */
 .breadcrumb {
   text-align: left;
+  position: absolute;
 }
 .breadcrumb li {
   float: left;
@@ -15,7 +16,7 @@
   line-height: 30px;
   text-align: center;
   margin-right: 15px;
-  padding: 5.5px 5px;
+  padding: 5.9px 5px 7px 5px;
 }
 
 .breadcrumb a::before,
@@ -39,13 +40,7 @@
 }
 
 .breadcrumb li.attribute a {
-  color: rgb(26, 22, 22);
-}
-.breadcrumb li.attribute::after {
-  content: "x";
-  color: red;
-  font-size: 10px;
-  vertical-align: super;
+  color: rgb(200, 200, 200);
 }
 
 .breadcrumb .location a:hover {
